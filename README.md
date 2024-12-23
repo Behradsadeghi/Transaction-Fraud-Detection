@@ -77,8 +77,8 @@ The dataset consists of financial transaction records with the following columns
 |---------------------|-----------|--------|----------|
 | Supervised (Engineered) | 0.87      | 0.84   | 0.85     |
 | Supervised (SMOTE)      | 0.79      | 0.91   | 0.85     |
-| GAT                   | 0.82      | 0.88   | 0.85     |
-| GraphSAGE             | 0.80      | 0.85   | 0.82     |
+| GAT (15%labaled)                 | 0.82      | 0.88   | 0.85     |
+| GraphSAGE (15%labaled)           | 0.80      | 0.85   | 0.82     |
 
 > Note: Results may vary based on parameter tuning and dataset changes.
 
