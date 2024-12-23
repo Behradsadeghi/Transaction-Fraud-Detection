@@ -1,4 +1,4 @@
-# Transaction Fraud Detection Using GNNs and Tabular Models
+#  Transaction Fraud Detection Using GNNs and Tabular Models
 
 This repository presents a comprehensive framework for fraud detection in financial transactions using both supervised and semi-supervised learning techniques. The dataset contains transaction details with labels indicating fraudulent or legitimate transactions.
 
@@ -60,6 +60,7 @@ The dataset consists of financial transaction records with the following columns
   - Graph Attention Networks (GAT).
   - GraphSAGE.
   - Hybrid loss combining node classification and reconstruction.
+  - **Note**: Only 15% of the data is labeled for training.
 - **Other Methods**:
   - Autoencoders.
   - Isolation Forest.
@@ -73,12 +74,12 @@ The dataset consists of financial transaction records with the following columns
 
 ## Results
 
-| Method              | Precision | Recall | F1-Score |
-|---------------------|-----------|--------|----------|
-| Supervised (Engineered) | 0.87      | 0.84   | 0.85     |
-| Supervised (SMOTE)      | 0.79      | 0.91   | 0.85     |
-| GAT (15%labaled)                 | 0.82      | 0.88   | 0.85     |
-| GraphSAGE (15%labaled)           | 0.80      | 0.85   | 0.82     |
+| Method                      | Precision | Recall | F1-Score |
+|-----------------------------|-----------|--------|----------|
+| Supervised (Engineered)     | 0.87      | 0.84   | 0.85     |
+| Supervised (SMOTE)          | 0.79      | 0.91   | 0.85     |
+| GAT (15% labeled data)      | 0.82      | 0.88   | 0.85     |
+| GraphSAGE (15% labeled data)| 0.80      | 0.85   | 0.82     |
 
 > Note: Results may vary based on parameter tuning and dataset changes.
 
@@ -92,6 +93,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - **Dataset Source**: Provided during an interview task.
 - **Referenced Papers**:
   - [Semi-Supervised Learning on Graphs (Kipf et al.)](https://arxiv.org/abs/1609.02907)
-
-
-
